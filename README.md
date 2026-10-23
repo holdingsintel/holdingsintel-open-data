@@ -1,33 +1,27 @@
-# HoldingsIntel Smart Money SEC Filings
+# HoldingsIntel Smart Money Open Data
 
-What hedge funds, company insiders and activist investors disclosed to the SEC, structured and ready to analyze: 13F holdings and their quarter-over-quarter changes, Form 4 insider trades, and Schedule 13D and 13G stakes above 5%.
+What hedge funds disclose to the SEC, as clean CSV files. A new 13F edition every quarter. Every row links to its SEC filing or to the HoldingsIntel page that shows it.
 
-Built by [HoldingsIntel](https://www.holdingsintel.com) from SEC EDGAR filings only. Free to use under [CC BY 4.0](./LICENSE).
+Latest 13F edition: [Q1 2025](data/13f/2025-Q1/README.md). The [Q1 2025 Smart Money Report](https://www.holdingsintel.com/reports/2025-Q1) tells its story.
 
 ## What's inside
 
-| Folder | SEC source | One row is | Refreshed |
-|---|---|---|---|
-| `13f/` | Form 13F-HR and 13F-HR/A | One fund's position in one security for one quarter, with its change from the prior quarter | Four times a year, right after each 13F filing deadline (mid-February, May, August and November) |
-| `insider/` | Form 4 | One insider transaction | Weekly |
-| `activist/` | Schedules 13D and 13G | One ownership filing | Weekly |
+| Folder | Edition | Files |
+| --- | --- | --- |
+| `data/13f/<quarter>/` | Every 13F quarter, once the funds' filings are in | `stocks.csv`, `funds.csv`, `fund_top_holdings.csv` |
 
-13F coverage: the funds that hold 89% of US 13F-disclosed capital ($70.7T, Q2 2026). Every row carries the SEC accession number of the filing it comes from, so any figure traces back to EDGAR in one step. Each folder's `SCHEMA.md` lists its columns.
+Each edition folder has a README with its columns, row counts and method.
 
-Each release is tagged by period and archived on Zenodo with its own DOI. The same files are on [Hugging Face](https://huggingface.co/datasets/holdingsintel/smart-money-sec-filings) and [Kaggle](https://www.kaggle.com/datasets/holdingsintel/smart-money-sec-filings).
+## Sources
 
-## Explore it on HoldingsIntel
+- **13F**: quarterly holdings reports filed by the funds HoldingsIntel tracks. US-listed equities, options excluded.
 
-See the same funds, stocks and filings with the analysis done, from the Smart Money Verdict to fund ratings: [funds](https://www.holdingsintel.com/filers), [stocks](https://www.holdingsintel.com/stocks), [insider trades](https://www.holdingsintel.com/insiders), [activist filings](https://www.holdingsintel.com/activists). Congressional trades live at [holdingsintel.com/congress](https://www.holdingsintel.com/congress).
+## Cite
 
-## How to cite
-
-Cite the release you used, with its DOI:
-
-> HoldingsIntel (2026). *HoldingsIntel Smart Money SEC Filings* [Data set]. Zenodo. https://doi.org/<DOI of the release>
-
-GitHub's **Cite this repository** button gives the same citation from [`CITATION.cff`](./CITATION.cff).
+HoldingsIntel. *HoldingsIntel Smart Money Open Data*. https://github.com/holdingsintel/holdingsintel-open-data. CC BY 4.0. Each 13F edition is a tagged release; cite the edition you used.
 
 ## License
 
-Data: [CC BY 4.0](./LICENSE). Use it, share it and build on it, commercially too; credit HoldingsIntel and the release you used. The underlying SEC filings are public records. Not investment advice.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): use, share and build on the data, with credit to HoldingsIntel and a link to [holdingsintel.com](https://www.holdingsintel.com).
+
+See every fund, stock, insider trade and activist stake, updated as filings land, at [holdingsintel.com](https://www.holdingsintel.com).

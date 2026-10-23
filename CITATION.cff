@@ -1,26 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this data, please cite the release you used, with its DOI."
+message: "If you use this dataset, cite it as below."
+title: "HoldingsIntel Smart Money Open Data"
 type: dataset
-title: "HoldingsIntel Smart Money SEC Filings"
-abstract: >-
-  13F holdings and their quarter-over-quarter changes, Form 4 insider trades,
-  and Schedule 13D and 13G stakes above 5%, structured from SEC EDGAR filings
-  by HoldingsIntel. 13F data refreshes after each quarterly filing deadline;
-  insider and activist data refresh weekly.
 authors:
   - name: "HoldingsIntel"
     website: "https://www.holdingsintel.com"
+version: "13f-2025-Q1"
+date-released: "2026-10-23"
+license: CC-BY-4.0
 url: "https://www.holdingsintel.com"
 repository: "https://github.com/holdingsintel/holdingsintel-open-data"
-license: CC-BY-4.0
 keywords:
-  - SEC EDGAR
-  - 13F
-  - Form 4
-  - Schedule 13D
-  - Schedule 13G
-  - hedge funds
-  - institutional holdings
-  - insider trading
-  - activist investors
-  - smart money
+  - "SEC"
+  - "13F"
+  - "hedge funds"
+  - "institutional ownership"

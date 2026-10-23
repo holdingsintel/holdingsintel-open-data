@@ -1,36 +1,18 @@
 {
+  "title": "HoldingsIntel Smart Money Open Data",
   "upload_type": "dataset",
-  "title": "HoldingsIntel Smart Money SEC Filings",
-  "description": "<p>13F holdings and their quarter-over-quarter changes, Form 4 insider trades, and Schedule 13D and 13G stakes above 5%, structured from SEC EDGAR filings by HoldingsIntel. 13F data refreshes after each quarterly filing deadline; insider and activist data refresh weekly. Every row carries the SEC accession number of its filing.</p><p>Explore the same data with the analysis done at <a href=\"https://www.holdingsintel.com\">holdingsintel.com</a>.</p>",
+  "version": "13f-2025-Q1",
+  "description": "Holdings, insider trades and ownership filings disclosed to the SEC, as clean CSV files with a link to the source filing on every row. Published by HoldingsIntel (https://www.holdingsintel.com).",
   "creators": [
     {
       "name": "HoldingsIntel"
     }
   ],
-  "access_right": "open",
   "license": "cc-by-4.0",
   "keywords": [
-    "SEC EDGAR",
+    "SEC",
     "13F",
-    "Form 4",
-    "Schedule 13D",
-    "Schedule 13G",
     "hedge funds",
-    "institutional holdings",
-    "insider trading",
-    "activist investors",
-    "smart money"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "https://www.holdingsintel.com",
-      "relation": "isDocumentedBy",
-      "resource_type": "other"
-    },
-    {
-      "identifier": "https://www.sec.gov/edgar",
-      "relation": "isDerivedFrom",
-      "resource_type": "dataset"
-    }
+    "institutional ownership"
   ]
 }
