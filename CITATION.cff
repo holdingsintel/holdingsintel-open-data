@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: "HoldingsIntel"
     website: "https://www.holdingsintel.com"
-version: "13f-2026-Q1"
+version: "13f-2026-Q2"
 date-released: "2026-10-23"
 license: CC-BY-4.0
 url: "https://www.holdingsintel.com"

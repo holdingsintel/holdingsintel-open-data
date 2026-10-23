@@ -2,7 +2,7 @@
 
 What hedge funds disclose to the SEC, as clean CSV files. A new 13F edition every quarter. Every row links to its SEC filing or to the HoldingsIntel page that shows it.
 
-Latest 13F edition: [Q1 2026](data/13f/2026-Q1/README.md). The [Q1 2026 Smart Money Report](https://www.holdingsintel.com/reports/2026-Q1) tells its story.
+Latest 13F edition: [Q2 2026](data/13f/2026-Q2/README.md). The [Q2 2026 Smart Money Report](https://www.holdingsintel.com/reports/2026-Q2) tells its story.
 
 ## What's inside
 
