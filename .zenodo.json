@@ -1,7 +1,7 @@
 {
   "title": "HoldingsIntel Smart Money Open Data",
   "upload_type": "dataset",
-  "version": "13f-2025-Q2",
+  "version": "13f-2025-Q3",
   "description": "Holdings, insider trades and ownership filings disclosed to the SEC, as clean CSV files with a link to the source filing on every row. Published by HoldingsIntel (https://www.holdingsintel.com).",
   "creators": [
     {
